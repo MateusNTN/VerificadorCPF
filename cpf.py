@@ -3,6 +3,7 @@ print("VERIFICADOR DE CPF")
 print("="*30)
 
 print("\033[31mEX : 111.222.333-44\033[m")
+print("\033[31mOBS: Digite com os '.' e '-' \033[m")
 cpf = str(input("Digite o cpf que deseja ser analisado: ")).strip()
 n1 = int(cpf[0])
 n2 = int(cpf[1])
